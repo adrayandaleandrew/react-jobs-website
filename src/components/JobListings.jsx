@@ -37,10 +37,10 @@ const JobListings = ({ isHome = false }) => {
               {jobs.map((job) => (
                 <JobListing key={job.id} job={job} />
               ))}
-              ;
+              
               </div>
           )}
-          ;
+          
         
       </div>
     </section>
